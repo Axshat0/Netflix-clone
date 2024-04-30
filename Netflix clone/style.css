@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: #ffffff;
+}
+.line{
+    border-bottom: 0.5rem solid rgb(35,35,35);
+}
+
+/* Backgroung-image */
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/058eee37-6c24-403a-95bd-7d85d3260ae1/e10ba8a6-b96a-4308-bee4-76fab1ebd6ca/IN-en-20240422-POP_SIGNUP_TWO_WEEKS-perspective_WEB_db9348f2-4d68-4934-b495-6d9d1be5917e_medium.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center center;
+    position: relative;
+    border-bottom: 0.5rem solid rgb(35,35,35);
+}
+
+/* Nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 11vw;
+}
+.flix-img{
+    width: 10.3vw;
+}
+.btn-red{
+    border: none;
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.btn-black-full{
+    padding: 8px 23px;
+    background-color: #00000047;
+    border: 1px solid #ffffff5c;
+    color: white;
+    border-radius: 5px;
+}
+.btn-black-half{
+    padding: 8px 23px;
+    background-color: #00000047;
+    border: 1px solid #ffffff5c;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
+.fa-language{
+    padding-right: 5px;
+}
+.btn-div{
+    display: flex;
+    gap: 1.5vw;
+}
+
+/* head-content */
+.head-content{
+    height: 80vh;
+    margin: auto;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.head-content h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.head-content p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.head-content h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.input input{
+    padding: 2vh 9vw 2vh 1vw;
+    font-size: 1.1rem;
+    background-color: #30303045;
+    border: 1px solid #6c6c6c;
+    border-radius: 5px;
+}
+.btn-red-big{
+    border: none;
+    font-size: 1.5rem;
+    padding: 14px 32px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+/* section content */
+
+/* Box 1 */
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 100px;
+    align-items: center;
+}
+.box-content h2{
+    font-size: 3.125rem;
+    margin-bottom: 15px;
+}
+.box-content p{
+    font-size: 1.625rem;
+}
+.media{
+    position: relative;
+}
+.media img{
+    width: 538px;
+    position: relative;
+    z-index: 1;
+}
+.media video{
+    width: 391px;
+    position: absolute;
+    top: 85px;
+    left: 72px;
+}
+.media-box3{
+    width: 325px;
+    position: absolute;
+    top: 44px;
+    left: 104px;
+    position: relative;
+    z-index: 1;
+}
+.media3 video{
+    width: 328px;
+    position: absolute;
+    top: 41px;
+    left: 102px;
+}
+
+/* Footer */
+
+/* Foot head */
+.foot-head{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    gap: 1vh;
+
+}
+.questions{
+    background-color: rgb(45,45,45);
+    color: rgb(255,255,255);
+    padding: 24px 24px;
+    width: 75vw;
+    font-size: 1.5rem;
+
+}
+.foot-head h2{
+    font-size: 3rem;
+    margin-top: 9vw;
+}
+.faq span{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* foot-head end */
+.login h3{
+    padding: 2vw;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.login{
+    padding: 2vw 0px 5vw;
+}
+.foot-end{
+    width: 65vw;
+    margin: auto;
+    padding: 50px 0px;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.foot-heading{
+    color: rgba(255,255,255,0.7);
+    font-size: 0.98rem;
+}
+.foot-end section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 0px;
+    flex-wrap: wrap;
+}
+.list ul li a{
+    color: rgba(255,255,255,0.7);
+    font-size: 0.85rem;
+}
+.lang-netindia span{
+    color: rgba(255,255,255,0.7);
+    font-size: 0.85rem;
+}
+.lang-netindia .btn-black-full{
+    display: block;
+    margin-bottom: 2vw;
+}
+
+/* Hover effect */
+.questions:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgb(65,65,65);
+}
+
+/* @Media */
+
+/* Nav */
+@media (max-width: 600px){
+    .btn-black-half{
+        display: block;
+    }
+    .btn-black-full{
+        display: none;
+    }
+    .flix-img{
+        width: 23.8vw;
+    }
+    .header{
+        background-size: cover;
+    }
+    .head-content{
+        width: 77vw;
+        height: 45vh;
+        gap: 5vw;
+        padding-top: 15vh;
+    }
+    .head-content h1{
+        font-size: 1.7rem;
+        text-align: center;
+
+    }
+    .head-content p{
+        font-size: 1.1rem;
+    }
+    .head-content h3{
+        font-size: 1.1rem;
+        text-align: center;
+
+    }
+    .btn-red-big{
+        font-size: 1.2rem;
+        padding: 12px 18px;
+    }
+    .input{
+        gap: 2vh;
+        flex-wrap: wrap;
+    }
+    .box1{
+        gap: 15px;
+        padding: 56px 14px;
+        grid-template-columns: 92vw;
+    }
+    .box-content h2{
+        font-size: 2.125rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .box-content p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .media img{
+        width: 350px;
+    }
+    .media video{
+        width: 253px;
+        position: absolute;
+        top: 55px;
+        left: 47px;
+    }
+    .foot-head h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .login h3{
+        font-size: 1.12rem;
+        text-align: center;
+    }
+    .lang-netindia .btn-black-full{
+        display: none;
+    }
+    .lang-netindia .btn-black-half{
+        display: block;
+        margin-bottom: 2vw;
+    }
+}
+
+@media (max-width: 830px){
+    .box1{
+        gap: 15px;
+        padding: 56px 14px;
+        grid-template-columns: 92vw;
+    }
+    .box-content h2{
+        font-size: 2.125rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .box-content p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .media img{
+        width: 350px;
+    }
+    .media video{
+        width: 253px;
+        position: absolute;
+        top: 55px;
+        left: 47px;
+    }
+    .media3 video{
+        width: 213px;
+        top: 28px;
+        left: 66px;
+    }
+}
