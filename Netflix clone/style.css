@@ -112,7 +112,6 @@ nav{
 
 /* section content */
 
-/* Box 1 */
 .box1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -241,7 +240,6 @@ nav{
 
 /* @Media */
 
-/* Nav */
 @media (max-width: 600px){
     .btn-black-half{
         display: block;
